@@ -1,0 +1,161 @@
+.navbar-nav{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.row-col{
+    text-align:inherit;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 0px solid #e0e0e0;
+    color: #f8f9fa;
+}
+
+.main{
+    text-align: initial;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.navbar-brand {
+    font-weight: bold;
+    justify-content: space-between;
+}
+.navbar-nav .nav-link {
+    color: #000;
+    justify-content: space-between;
+}
+.based-salarie{
+    text-align: right;
+    font-weight: bold;
+     margin-top: 20px;
+
+}
+.mb-2{
+    padding-bottom:0px;
+    margin-top:0;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.low-high{
+    font-size: small;
+
+}
+.low-high.p.b{
+    text-align: end;
+}
+
+.header{
+    background-color:white;
+    color: black;
+    position:relative;
+    text-align: right;
+    padding-left: 10px ;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.h4{
+    margin-bottom: 10px;
+}
+
+.header-bar .contact-info {
+    font-size: 14px;
+}
+.jobs-salaries {
+    background-color:#FF4500;
+    color: white;
+    padding: 30px 0;
+}
+.job-links img {
+    max-width: 50px;
+}
+.job-links .col {
+    margin-bottom: 20px;
+}
+.sidebar {
+    background-color:white;
+    padding: 20px;
+    height: 100vh;
+    
+}
+.sidebar .nav-link {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: left;
+}
+.sidebar .nav-link.active {
+    background-color: #f9f0f0;
+    color:black;
+}
+.job-box {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 200px; /* Adjust height to match */
+}
+.job-box h5 {
+    font-weight: bold;
+}
+.salary-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.salary-info .low-high {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.base-salaries{
+    text-align:end;
+    
+}
+.button-group{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 66.6667%;
+    padding: 20px;
+}
+.flag-buttons{
+    margin: 0 5px ;
+    
+}
+@media(max-width: 500px) {
+    #btn-group{
+        display: block;
+    }
+
+}
+@media(max-width: 500px)and(min-width:100px){
+    #row-joblinks{
+        display: flex;
+    }
+
+
+}
+.flag-icons{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.hidden-section {
+    display: none;
+}
+
+ 

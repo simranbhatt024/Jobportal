@@ -1,0 +1,156 @@
+[
+  {
+    "country": "Canada",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 139850, "low": 101819, "high": 155333 },
+          { "title": "Database Administrator", "salary": 99783, "low": 81900, "high": 123274 },
+          { "title": "Full-stack Developer", "salary": 111599, "low": 80000, "high": 122196 },
+          { "title": "UX/UI Designer", "salary": 111599, "low": 80000, "high": 122196 },
+          { "title": "Business Intelligence Analyst", "salary": 122993, "low": 81357, "high": 138938 },
+          { "title": "Data Analyst", "salary": 91173, "low": 65354, "high": 140148 },
+          { "title": "Front-end Developer", "salary": 102799, "low": 95425, "high": 135000 },
+          { "title": "QA", "salary": 122316, "low": 70076, "high": 144000 },
+          { "title": "System Administrator", "salary": 100028, "low": 73151, "high": 117014 },
+          { "title": "Design Engineer", "salary": 122255, "low": 90000, "high": 149540 },
+          { "title": "Mechanical Engineer", "salary": 122091, "low": 77666, "high": 125846 },
+          { "title": "Project Engineer", "salary": 122984, "low": 110767, "high": 142655 },
+          { "title": "Biomedical Engineer", "salary": 107250, "low": 71282, "high": 129304 },
+          { "title": "Civil Engineer", "salary": 117893, "low": 88030, "high": 122842 },
+          { "title": "Electrical Engineer", "salary": 134178, "low": 100000, "high": 138845 },
+          { "title": "Industrial Engineer", "salary": 117450, "low": 79950, "high": 122501 },
+          { "title": "Mining Engineer", "salary": 124858, "low": 99631, "high": 130284 },
+          { "title": "Environmental Engineer", "salary": 123516, "low": 89539, "high": 128942 }
+        ]
+      },
+      {
+        "category": "Engineer",
+        "jobs": [
+          { "title": "Design Engineer", "salary": 122255, "low": 90000, "high": 149540 },
+          { "title": "Mechanical Engineer", "salary": 122091, "low": 77666, "high": 125846 },
+          { "title": "Project Engineer", "salary": 122984, "low": 110767, "high": 142655 },
+          { "title": "Biomedical Engineer", "salary": 107250, "low": 71282, "high": 129304 },
+          { "title": "Civil Engineer", "salary": 117893, "low": 88030, "high": 122842 },
+          { "title": "Electrical Engineer", "salary": 134178, "low": 100000, "high": 138845 },
+          { "title": "Industrial Engineer", "salary": 117450, "low": 79950, "high": 122501 },
+          { "title": "Mining Engineer", "salary": 124858, "low": 99631, "high": 130284 },
+          { "title": "Environmental Engineer", "salary": 123516, "low": 89539, "high": 128942 }
+        ]
+      },
+      {
+        "category": "Investment",
+        "jobs": [
+          { "title": "Investment Advisor", "salary": 148043, "low": 57525, "high": 154531 },
+          { "title": "Economist", "salary": 99558, "low": 80073, "high": 152913 },
+          { "title": "Financial Analyst", "salary": 93041, "low": 70000, "high": 132715 },
+          { "title": "Credit Analyst", "salary": 109091, "low": 60000, "high": 113482 },
+          { "title": "Actuarial", "salary": 156007, "low": 85563, "high": 162041 },
+          { "title": "Business Analyst", "salary": 82550, "low": 69799, "high": 128557 },
+          { "title": "Financial Advisor", "salary": 102277, "low": 61148, "high": 154429 },
+          { "title": "Insurance Agent", "salary": 57985, "low": 45000, "high": 88712 },
+          { "title": "Accounting Manager", "salary": 110000, "low": 82828, "high": 195395 }
+          
+        ]
+      }
+    
+    ]
+  },
+  {
+    "country": "USA",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 109850, "low": 101819, "high": 155333 },
+          { "title": "Database Administrator", "salary": 89783, "low": 81900, "high": 123274 },
+          { "title": "Full-stack Developer", "salary": 101599, "low": 70000, "high": 122196 },
+          { "title": "UX/UI Designer", "salary": 311599, "low": 60000, "high": 122196 },
+          { "title": "Business Intelligence Analyst", "salary": 162993, "low": 51357, "high": 138938 },
+          { "title": "Data Analyst", "salary": 91173, "low": 65354, "high": 140148 },
+          { "title": "Front-end Developer", "salary": 102799, "low": 95425, "high": 135000 },
+          { "title": "QA", "salary": 122316, "low": 70076, "high": 144000 },
+          { "title": "System Administrator", "salary": 100028, "low": 73151, "high": 117014 },
+          { "title": "Programmer", "salary": 122316, "low": 70076, "high": 144000 },
+          { "title": "Data Analyst", "salary": 100028, "low": 73151, "high": 117014 }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "country": "Canada",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 139850, "low": 101819, "high": 155333 },
+          { "title": "Database Administrator", "salary": 99783, "low": 81900, "high": 123274 },
+          { "title": "Full-stack Developer", "salary": 111599, "low": 80000, "high": 122196 }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "country": "Australia",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 140000, "low": 100000, "high": 160000 },
+          { "title": "Database Administrator", "salary": 98000, "low": 80000, "high": 120000 },
+          { "title": "Full-stack Developer", "salary": 115000, "low": 85000, "high": 130000 }
+        ]
+      },
+      {
+        "category": "Engineer",
+        "jobs": [
+          { "title": "Mechanical Engineer", "salary": 110000, "low": 80000, "high": 135000 },
+          { "title": "Civil Engineer", "salary": 105000, "low": 78000, "high": 125000 }
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 90000, "low": 70000, "high": 110000 },
+          { "title": "Full-stack Developer", "salary": 95000, "low": 75000, "high": 115000 }
+        ]
+      },
+      {
+        "category": "Engineer",
+        "jobs": [
+          { "title": "Electrical Engineer", "salary": 85000, "low": 65000, "high": 100000 },
+          { "title": "Project Engineer", "salary": 90000, "low": 70000, "high": 115000 }
+        ]
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "categories": [
+      {
+        "category": "IT & Software and Developments",
+        "jobs": [
+          { "title": "Back-end Developer", "salary": 60000, "low": 45000, "high": 75000 },
+          { "title": "Full-stack Developer", "salary": 65000, "low": 50000, "high": 80000 }
+        ]
+      },
+      {
+        "category": "Engineer",
+        "jobs": [
+          { "title": "Civil Engineer", "salary": 55000, "low": 40000, "high": 70000 },
+          { "title": "Mechanical Engineer", "salary": 58000, "low": 42000, "high": 73000 }
+        ]
+      }
+    ]
+  }
+]

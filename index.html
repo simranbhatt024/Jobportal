@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>y-axis.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="sb.css">
+    <style>
+        .nav-item h5 {
+          margin: 0; /* Remove margin  */
+        }
+        .navbar-nav{
+            text-align:center;
+            margin: 0px;
+            padding-inline:  5px;
+            justify-content: space-between;
+
+        }
+        
+      </style>
+  </head>
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="signupForm">
+          <div class="mb-3">
+            <label for="signupName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="signupName" required>
+          </div>
+          <div class="mb-3">
+            <label for="signupEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="signupEmail" required>
+          </div>
+          <div class="mb-3">
+            <label for="signupPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="signupPassword" required>
+          </div>
+          <div class="mb-3">
+            <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="signupConfirmPassword" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="loginEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="loginEmail" required>
+          </div>
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="loginPassword" required>
+          </div>
+          <button type="submit" class="btn btn-success w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <body>
+    <section >
+        <div class="container ">
+
+    <header class="nav-item py-3 right-text ">
+        <ul class=" d-flex justify-content-between nav justify-content-center  bg-light right-text align-item-centre">
+            <li class="navbar-nav navbar-light">
+                <button type="button" class="btn btn-black"><h5><i class="fas fa-phone-alt" ></i> 7670 800 000</h5></button>
+        </li>
+        <li class="navbar-nav mr-3">
+            <button type="button" class="btn btn-black"><h5><i class="fab fa-whatsapp"></i>+91 880 221 9999</h5></button>
+        </li>
+        <div class="button-group " role="group" aria-label="Basic mixed styles example">
+            <!-- Signup Button -->
+<button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#signupModal">
+  <h5><i class="fas fa-user-plus"></i> Signup</h5>
+</button>
+
+<!-- Login Button -->
+<button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#loginModal">
+  <h5><i class="fas fa-sign-in-alt"></i> Login</h5>
+</button>
+
+            <button type="button" class="btn btn-black"> <h5><i</i>Contact Us</a></h5></button>
+        </div>
+      </ul>
+    </header>
+</div>
+</section>
+      <!-- navbar-->
+      <section>
+        <div class="container button right py-2 #ffc09f ">
+        <nav class="navbar navbar-expand-lg  #ffc09f ">
+        <div class="container">
+            <div class="logo">
+                <img src="image/logo.jpg" alt="logo">
+              </div>    
+            <div class=" ms-auto">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Free Assesment</button>
+                    <button type="button" class="btn btn-outline-primary">Migrate</button>
+                    <button type="button" class="btn btn-outline-primary">Work</button>
+                    <button type="button" class="btn btn-outline-primary">Study</button>
+                    <button type="button" class="btn btn-outline-primary">Visa</button>
+                    <button type="button" class="btn btn-outline-primary">Coaching</button>
+                    <button type="button" class="btn btn-outline-primary">Invest</button>
+                    <button type="button" class="btn btn-outline-primary">Overseas Jobs</button>
+                    <button type="button" class="btn btn-outline-primary">Signup</button>
+                    <button type="button" class="btn btn-outline-primary">Login</button>
+                    <button type="button" class="btn btn-outline-primary">Contact Us</button>
+                    <button type="button" class="nav-item" data-bs-toggle="dropdown"> <i class="bi bi-search"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </button>
+                      </div>
+                  </div>
+                </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    </section>
+    <!-- space between them-->
+<!--   <section>
+        <div class="container bg-light">
+            <a href="">
+                <p></p>
+            </a>
+        </div> 
+    </section>-->
+       <div class="container country flex-auto">
+        <div class="jobs-salaries text-center #FF4500 ">
+            <div class="container #FF4500">  
+                <section id="Jobs and Salaries text-center" class="mb-4">
+                    <h4 class="mb-3">Jobs and Salaries</h4>
+                    <h6 class="mb-2">Search Overseas Carier Options</h6>
+                
+                <div class="row job-links mb-2 mx-auto margin-0">
+                    <div class="col-md-2 offset-md-2 mx-auto justify-content-centre  dropdown-toggle-hidden" role="group" aria-label="Basic outlined example">
+                        <button type="button country-button nav-item" class="btn btn-light nav-item active country-button  " data-country="Canada"><a href="#">
+                            <img src="https://www.countryflags.com/wp-content/uploads/canada-flag-png-large.png" alt="Canada" class="flag-icon">
+                            <p>Canada</p>
+                        </a>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">It & Software</a></li>
+                        <li><a class="dropdown-item" href="#">Engineer</a></li>
+                      </ul>
+
+                    </div>
+                    <div class="col-md-2 mx-auto  justify-content-centre dropdown-toggle-hidden">
+                        <button type="button nav-item " class="btn btn-light nav-item country-button  "  data-country="USA"><a href="#USA">
+                            <img src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png" alt="USA" class="flag-icon">
+                            <p>USA</p>
+                        </a>
+                        </button>
+                    </div>
+                    <div class="col-md-2 mx-auto justify-content-centre  dropdown-toggle-hidden">
+                        <button type="button nav-item " class="btn btn-light nav-item country-button " data-country="Australia"><a href="#Australia">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/640px-Flag_of_Australia_%28converted%29.svg.png" alt="Australia" class="flag-icon">
+                            <p>Australia</p>
+                        </a>
+                        </button>
+                    </div>
+                    <div class="col-md-2 mx-auto justify-content-centre dropdown-toggle-hidden">
+                        <button type="button nav-item " class="btn btn-light nav-item country-button "  data-country="Germany"><a href="#Germany">
+                            <img src="https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png" alt="Germany"class="flag-icon">
+                            <p>Germany</p>
+                        </a>
+                        </button>
+                    </div>
+                    <div class="col-md-2 mx-autobtn-group dropdown-toggle-hidden ">
+                         <button type="button nav-item " class="btn btn-light nav-item country-button "  data-country="UK"><a href="#UK">
+                            <img src="https://www.countryflags.com/wp-content/uploads/united-kingdom-flag-png-large.png" alt="UK"class="flag-icon">
+                            <p>UK</p>
+                        </a>
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+    </section>
+    <section>
+        <div class="container bg-light">
+            <a href="">
+                <p></p>
+            </a>
+        </div>
+    </section>
+    <!-- side sections-->
+    <div class="container sidebar">
+        <div class="row">
+            <nav class="col-md-3 sidebar d-none d-md-block">
+                <ul class="nav flex-column #ffc09f">
+                    <li class="nav-item">
+                        <a class="nav-link active sidebar-button " data-bs-toggle="collapse" data-category="IT & Software and Developments" href="#It-Software" ><b>IT & Software and Developments</a></b>
+                    </li>
+                    <li class="nav-item nav-item active" >
+                        <a class="nav-link sidebar-button" data-category="Engineer" href="#Engineer "><b>Engineer</a></b> 
+                    </li>
+                    <li class="nav-item nav-item">
+                        <a class="nav-link sidebar-button " data-category="Investments" href="#Investment"><b>Finance & Accounting</a></b>
+                    </li>
+
+                    <li class="nav-item nav-item">
+                        <a class="nav-link sidebar-button" data-category="Healthcare" href="#Healthcare"><b>Healthcare</a></b>
+                    </li>
+                    <li class="nav-item nav-item">
+                        <a class="nav-link sidebar-button" data-category="Arts"href="#Arts"><b>Arts</a></b>
+                    </li>
+                </ul>
+            </nav>
+    
+            <main class="col-md-8 mx-auto flex-column">
+                <section id="it-software" class="mb-4">
+                    <h4 class="mb-2">IT & Software and Developments</h4>
+                    <section class="based-salarie " class="mb-2 mx-auto">
+                    <p>based on 9 salaries <strong class="right-text ms-auto">$1,16,438</strong>
+                    </p>
+                </section>
+                <section id="Engineer">
+                            <div class="row">
+                        <div class="col-md-4">
+                            <div class="job-box " >
+                                <h5>Back-end Developer</h5>
+                                <p><b>$139,850</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$101,819</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$155,333</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="job-box">
+                                <h5>Database Administrator</h5>
+                                <p><b>$99,783</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$81,900</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$123,274</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-md-4">
+                                <div class="job-box" id="sales-marketing">
+                                   <h5>Full-stack Developer</h5>    
+                                <p><b>$111,599</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$80,000</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$122,196</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="it-software">
+                                <h5>UX/UI Designer</h5>
+                                <p><b>$111,599</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$80,000</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$122,196</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="finance-accounting">
+                                <h5>Business Intelligence Analyst</h5>
+                                <p><b>$122,993</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$81,357</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$138,938</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="engineer" >
+                                <h5>Data Analyst</h5>
+                                <p><b>$91,173</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$65,354</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$140,148</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="it-software">
+                                <h5>Front-end Developer</h5>
+                                <p><b>$102,799</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$95,425</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$135,000</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="arts">
+                                <h5>QA</h5>
+                                <p><b>$122,316</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$70,076</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$144,000</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="job-box" id="sales-marketing">
+                                <h5>System Administrator</h5>
+                                <p><b>$100,028</b></p>
+                                <div class="salary-info">
+                                    <div class="low-high">
+                                        <p>low</p>
+                                        <p><b>$73,151</b></p>
+                                    </div>
+                                    <div class="low-high">
+                                        <p>high</p>
+                                        <p><b>$117,014</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>
+                </section>
+    
+                <!-- Repeat similar sections if required -->
+    
+            </main>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <!-- i dont know why but after including jason the main section repeats-->
+     <script> scr="jobsData.json"</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
