@@ -111,8 +111,9 @@
     </header>
 </div>
 </section>
+
       <!-- navbar-->
-      <section>
+      <!--<section>
         <div class="container button right py-2 #ffc09f ">
         <nav class="navbar navbar-expand-lg  #ffc09f ">
         <div class="container">
@@ -153,16 +154,16 @@
                 <p></p>
             </a>
         </div> 
-    </section>-->
-       <div class="container country flex-auto">
+    </section>-- old flags code>
+       <!--<div class="container country flex-auto">
         <div class="jobs-salaries text-center #FF4500 ">
             <div class="container #FF4500">  
                 <section id="Jobs and Salaries text-center" class="mb-4">
                     <h4 class="mb-3">Jobs and Salaries</h4>
                     <h6 class="mb-2">Search Overseas Carier Options</h6>
                 
-                <div class="row job-links mb-2 mx-auto margin-0">
-                    <div class="col-md-2 offset-md-2 mx-auto justify-content-centre  dropdown-toggle-hidden" role="group" aria-label="Basic outlined example">
+                <div class="row job-links mb-2 mx-auto margin-0 ">
+                    <div class="col-md-2 offset-md-2 mx-auto justify-content-centre  dropdown-toggle-hidden " role="group" aria-label="Basic outlined example">
                         <button type="button country-button nav-item" class="btn btn-light nav-item active country-button  " data-country="Canada"><a href="#">
                             <img src="https://www.countryflags.com/wp-content/uploads/canada-flag-png-large.png" alt="Canada" class="flag-icon">
                             <p>Canada</p>
@@ -216,6 +217,98 @@
         </div>
     </section>
     <!-- side sections-->
+     <style>
+    .flag-icon {
+        width: 40px;
+        height: 25px;
+        object-fit: cover;
+    }
+
+    .country-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: none;
+        background-color:orangered;
+        border-radius: 8px;
+        width: 100%;
+        transition: background 0.3s;
+    }
+
+    .country-button:hover {
+        background-color: #e9ecef;
+    }
+
+    .country-button p {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    @media (max-width: 576px) {
+        .flag-icon {
+            width: 30px;
+            height: 20px;
+        }
+
+        .country-button p {
+            font-size: 12px;
+        }
+    }
+</style>
+
+<div class="container country py-4">
+    <div class="text-center mb-3">
+        <h4>Jobs and Salaries</h4>
+        <h6>Search Overseas Career Options</h6>
+    </div>
+
+    <div class="row justify-content-center g-3">
+        <!-- Canada -->
+        <div class="col-4 col-sm-2 text-center">
+            <button class="country-button" data-country="Canada">
+                <img src="https://www.countryflags.com/wp-content/uploads/canada-flag-png-large.png" alt="Canada" class="flag-icon">
+                <p>Canada</p>
+            </button>
+        </div>
+
+        <!-- USA -->
+        <div class="col-4 col-sm-2 text-center">
+            <button class="country-button" data-country="USA">
+                <img src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png" alt="USA" class="flag-icon">
+                <p>USA</p>
+            </button>
+        </div>
+
+        <!-- Australia -->
+        <div class="col-4 col-sm-2 text-center">
+            <button class="country-button" data-country="Australia">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/640px-Flag_of_Australia_%28converted%29.svg.png" alt="Australia" class="flag-icon">
+                <p>Australia</p>
+            </button>
+        </div>
+
+        <!-- Germany -->
+        <div class="col-4 col-sm-2 text-center">
+            <button class="country-button" data-country="Germany">
+                <img src="https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png" alt="Germany" class="flag-icon">
+                <p>Germany</p>
+            </button>
+        </div>
+
+        <!-- UK -->
+        <div class="col-4 col-sm-2 text-center">
+            <button class="country-button" data-country="UK">
+                <img src="https://www.countryflags.com/wp-content/uploads/united-kingdom-flag-png-large.png" alt="UK" class="flag-icon">
+                <p>UK</p>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
     <div class="container sidebar">
         <div class="row">
             <nav class="col-md-3 sidebar d-none d-md-block">
